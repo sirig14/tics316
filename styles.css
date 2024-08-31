@@ -1,0 +1,221 @@
+/* Estilos para el header */
+header {
+    background-color: #242c81;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Estilos para el texto del header */
+header h1 {
+    color: #000000;
+}
+
+/* Estilos para los párrafos */
+p {
+    font-family: system-ui, sans-serif;
+    color: #060005;
+    line-height: 1.6;
+}
+
+.foto-perfil {
+    width: 250px;  /* Ancho de la imagen */
+    height: 250px;  /* Alto de la imagen */
+    border-radius: 50%;  /* Hace que la imagen sea redonda */
+    position: absolute;  /* Habilita el posicionamiento absoluto */
+    top: 20px;  /* Ajusta la distancia desde la parte superior */
+    right: 20px;  /* Ajusta la distancia desde el borde derecho */
+    margin-bottom: 20px;  /* Espacio adicional debajo de la imagen */
+    float:left
+}
+
+header h3 {
+    color: #000000;
+    text-align: left;
+}
+/* Estilos para la sección de información personal */
+.informacion-personal {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.informacion-personal h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.informacion-personal ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.informacion-personal li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.informacion-personal li strong {
+    color: #000;
+
+
+}
+
+informacion-personal {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.informacion-personal h2, .informacion-personal h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.informacion-personal ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.informacion-personal li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.informacion-personal li strong {
+    color: #000;
+}
+
+.informacion-personal p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.informacion-personal a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.informacion-personal a:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilos para la sección de contacto */
+.contacto {
+    background-color: #eef2f3;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contacto h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+    align-self: flex-start;
+}
+
+.contacto input[type="text"],
+.contacto input[type="email"],
+.contacto textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.contacto button {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contacto button:hover {
+    background-color: #004d99;
+}
+.intereses {
+    background-color: #f0f4f8;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.intereses h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intereses ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.intereses li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.intereses li a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.intereses li a:hover {
+    text-decoration: underline;
+}
+
+
+.instagram-post {
+    text-align: center;
+    margin: 20px auto;
+    float:center;
+}
+
+.instagram-post blockquote {
+    max-width: 500px;
+    margin: 0 auto;
+    float:center;
+}
